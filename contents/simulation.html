@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Big Book of Computing | Vol II: Modeling Complex Systems</title>
+    <link rel="shortcut icon" href="../img/n.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/timeline.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css"
+          integrity="sha384-My1fE_C1/CXcbM8M1TDMmnSljIfc5S+HSRoYAbsSGOYFGvcJ/cKqcZBYaOQHAoNt"
+          crossorigin="anonymous">
+    
+    </head>
+
+<body style="background-color: #F1F1F3;">
+
+<nav class="navbar navbar-white navbar-fixed-top" style="background-color: SlateBlue;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <div id="logo" style="display: flex; align-items: center;">
+                    <a href="../index.html"><img src="../img/logo.png" alt="Big Book of Computing Logo" title="The Big Book of Computing" width="50" height="50" /></a>
+                    <span style="margin-left: 10px; font-weight: bold; font-size: 1.2em; color: #07f1d6;">The Big Book of Computing</span>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">HOME</a></li>
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">VOLUMES</a></li>
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br><br><br><br>
+        <div class="container">
+            <center>
+            <h2>The Big Book of Computing</h2>
+            <h3> Volume II: Modeling Complex Systems </h3>
+            </center>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline8">
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 1 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Foundations of Stochastic Simulation</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Address the <b>"Curse of Dimensionality"</b> in the partition function $Z = \sum_{\mathbf{s}} e^{-\beta E(\mathbf{s})}$.</li>
+                                        <li>Introduce <b>Importance Sampling</b> to focus computation on high-probability (low-energy) states.</li>
+                                        <li>Establish <b>Markov Chains</b>, <b>detailed balance</b>, and <b>ergodicity</b> as the theoretical foundation.</li>
+                                        <li>Derive the <b>Metropolis-Hastings</b> algorithm as the core engine for sampling the Boltzmann distribution.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter1" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 2 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Physics I: The Ising Model</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Use the 2D Ising Model to simulate <b>emergent order</b> and <b>phase transitions</b>.</li>
+                                        <li class="text-left">Implement the Metropolis algorithm on a 2D lattice using <b>periodic boundary conditions (PBCs)</b>.</li>
+                                        <li class="text-left">Measure macroscopic observables like magnetization $M(T)$ and susceptibility $\chi(T)$.</li>
+                                        <li class="text-left">Handle the statistical challenges of <b>thermalization</b> (equilibration) and <b>autocorrelation</b> (data binning).</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter2" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 3 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Physics II: Lattice Gauge Theory</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Simulate <b>Quantum Field Theories (QFT)</b> non-perturbatively by discretizing 4D spacetime.</li>
+                                        <li>Define the <b>Wilson Action</b> $S_W$ as the "energy," replacing simple spins with $SU(N)$ matrices on links.</li>
+                                        <li>Implement a Metropolis simulation to update $SU(N)$ matrices and sample the path integral.</li>
+                                        <li>Measure the <b>Wilson Loop</b> $\langle W(R, T) \rangle$ to demonstrate the "area law" as proof of quark <b>confinement</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter3" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 4 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Finance I: Monte Carlo Option Pricing</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Price <b>"exotic" derivatives</b> (like Asian or Barrier options) that lack analytical formulas.</li>
+                                        <li class="text-left">Use the <b>"risk-neutral" pricing</b> framework, simulating paths under the risk-free rate $r$.</li>
+                                        <li class="text-left">Simulate thousands of <b>Geometric Brownian Motion (GBM)</b> price paths to find the average discounted payoff.</li>
+                                        <li class="text-left">Implement <b>variance reduction</b> techniques like <b>Antithetic Variates</b> to improve convergence.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter4" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 5 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Biology I: Stochastic Systems Biology</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Show why ODEs fail for low molecule counts (e.g., $N=10$) where <b>stochastic noise</b> is dominant.</li>
+                                        <li>Implement the <b>Gillespie Algorithm (SSA)</b> as a kinetically-driven, continuous-time Monte Carlo method.</li>
+                                        <li>Simulate a simple gene expression network ($DNA \rightarrow mRNA \rightarrow Protein$) as discrete, random events.</li>
+                                        <li>Observe <b>transcriptional "bursting"</b> and contrast the noisy SSA result with the smooth ODE average.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter5" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 6 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Advanced Monte Carlo Methods</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Solve problems where Metropolis fails: <b>critical slowing down</b> near $T_c$ and trapping in <b>local minima</b>.</li>
+                                        <li class="text-left">Implement <b>Cluster Algorithms</b> (e.g., Wolff) to flip entire correlated domains and beat slowing down.</li>
+                                        <li class="text-left">Use <b>Parallel Tempering</b> (Replica Exchange) to swap configurations between different temperatures to escape energy barriers.</li>
+                                        <li class="text-left">Introduce the <b>Wang-Landau algorithm</b> for directly calculating the <b>density of states $g(E)$</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter6" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 7 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Physics III: Molecular Dynamics (MD)</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Simulate the classical motion of $N$ interacting atoms by solving Newton's $\mathbf{F} = m\mathbf{a}$.</li>
+                                        <li>Revisit the <b>Velocity-Verlet algorithm</b> (from Vol I) as a <b>symplectic integrator</b> that ensures long-term energy conservation.</li>
+                                        <li>Implement <b>Force Fields</b> (e.g., Lennard-Jones), PBCs, and <b>neighbor lists</b> for $O(N)$ optimization.</li>
+                                        <li>Calculate temperature from kinetic energy and the <b>radial distribution function $g(r)$</b> as a "fingerprint" of the phase.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter7" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 8 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Finance II: The Stochastic Calculus (SDEs)</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Show why classical calculus fails for random walks, where the core rule is $(dW_t)^2 = dt$.</li>
+                                        <li class="text-left">Introduce the <b>Wiener Process $W_t$</b> and the <b>Stochastic Differential Equation (SDE)</b>.</li>
+                                        <li class="text-left">Derive <b>Itō's Lemma</b>, the stochastic chain rule, which introduces a new $\frac{1}{2}\sigma^2 \frac{\partial^2 f}{\partial S^2}$ term.</li>
+                                        <li class="text-left">Implement the <b>Euler-Maruyama</b> method as the base numerical solver for SDEs.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter8" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 9 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Finance III: Black-Scholes-Merton (BSM)</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Derive the BSM <b>deterministic PDE</b> by constructing a risk-free <b>"delta-hedged" portfolio</b>.</li>
+                                        <li>Show how all stochastic $dW_t$ terms perfectly cancel, removing all randomness from the portfolio's value.</li>
+                                        <li>Recognize the BSM equation as mathematically equivalent to the <b>Heat/Diffusion Equation</b> (from Vol I).</li>
+                                        <li>Use <b>Finite Difference Methods</b> (from Vol I) to solve the BSM PDE for <b>American options</b> as a free-boundary problem.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter9" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 10 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Biology II: Neuroscience (Hodgkin-Huxley)</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Simulate the <b>action potential</b> ("spike") of a neuron as a deterministic process.</li>
+                                        <li class="text-left">Model the neuron as an electrical circuit with a capacitor (membrane) and non-linear resistors (ion channels).</li>
+                                        <li class="text-left">Build the full <b>Hodgkin-Huxley model</b> as a system of four coupled, non-linear <b>ODEs</b>.</li>
+                                        <li class="text-left">Use an <b>RK4 solver</b> (from Vol I) to simulate the spike, observing the fast Na+ activation and slower K+ feedback.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter10" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 11 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">The Agent-Based Model (ABM) Framework</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Introduce the "bottom-up" simulation philosophy for modeling <b>heterogeneous agents</b> with local rules.</li>
+                                        <li>Define the three pillars of an ABM: <b>Agents</b> (state, rules), <b>Environment</b> (grid, network), and <b>Interactions</b>.</li>
+                                        <li>Define <b>Emergence</b> as the core concept: how complex, macroscopic phenomena arise from simple, local interactions.</li>
+                                        <li>Implement Schelling's segregation model as a classic example of emergence.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter11" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 12 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Finance IV: Agent-Based Market Models</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Model market crashes and bubbles as emergent phenomena driven by <b>human psychology</b> (herding, panic).</li>
+                                        <li class="text-left">Use the <b>Ising Model</b> as a direct analogy for a market: Spin (Buy/Sell), Interaction $J$ (Herding).</li>
+                                        <li class="text-left">Simulate the Santa Fe "Artificial Stock Market" with rational <b>"Fundamentalists"</b> and trend-following <b>"Chartists"</b>.</li>
+                                        <li class="text-left">Observe realistic market phenomena like <b>"fat tails"</b> (power laws) and <b>volatility clustering</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter12" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 13 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Biology III: Collective Behavior & Pattern Formation</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Model how cells self-organize to form macroscopic patterns (morphogenesis).</li>
+                                        <li>Implement <b>Reaction-Diffusion Models</b> using PDEs (from Vol I) to simulate <b>Turing Patterns</b> ("leopard spots").</li>
+                                        <li>Use <b>Graph Theory</b> to model <b>Gene Regulatory Networks (GRNs)</b> and analyze their topology.</li>
+                                        <li>Simulate <b>Boolean Networks</b> on these graphs to find stable <b>attractors</b>, which represent cell types.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter13" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 14 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Biology IV: Computational Neuroscience</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Model how neural *networks* perform computation, moving beyond the single-neuron H-H model.</li>
+                                        <li class="text-left">Build a <b>Hopfield Network</b>, showing its mathematical equivalence to the <b>"Ising Model of Memory."</b></li>
+                                        <li class="text-left">Define memories as low-energy <b>attractors</b> in the network's energy landscape $E = - \frac{1}{2} \sum w_{ij} s_i s_j$.</li>
+                                        <li class="text-left">Simulate <b>associative memory</b> and <b>pattern completion</b> by initializing the network with a noisy cue.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter14" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 15 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Graphs and Networks in Complex Systems</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Introduce <b>Graph Theory</b> as the formal language for describing connectivity in complex systems.</li>
+                                        <li>Define key network metrics: <b>degree distribution $P(k)$</b>, <b>path length $L$</b>, and <b>clustering coefficient $C$</b>.</li>
+                                        <li>Explore network topologies: <b>random (Erdős–Rényi)</b>, <b>small-world</b>, and <b>scale-free (Barabási–Albert)</b>.</li>
+                                        <li>Model dynamics on networks, such as <b>percolation transitions</b> and epidemic spread using the <b>SIR model</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol2/Chapter15" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<hr>
+
+<footer style="background-color: SlateBlue;"> 
+<div class="container-fluid" style="color:white !important;">
+    <div class="row text-center" style="padding-top:10px">
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-earphone"></span> Phone</p>
+            <p style="margin-bottom:2px;color:white;"> No Phone </p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-home"></span> Location</p>
+            <p style="margin-bottom:2px;color:white;"> https://bigbookofcomputing.com </p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-send"></span> E-mail</p>
+            <p style="margin-bottom:2px;color:white;">contact@bigbookofcomputing.com</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-leaf"></span> GitHub</p>
+            <p style="margin-bottom:2px;color:white;">https://www.bigbookofcomputing.github.io </p>
+        </div>
+    </div>
+</div>
+</footer> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJdFfcxGetHjPoHqG8dDbcM9hKjE2L/kKYhGqNqMBLCROsDheHjYvkK/S/wM" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-4BiPWGqTwGfS2wI8PZaNWwA4eYFPEA1seNBqCfdTYhLXDvgcCnPAB6B2wAEXxGSm" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false}
+            ],
+            throwOnError : false
+        });
+    });
+</script>
+
+</body>
+</html>

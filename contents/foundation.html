@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Big Book of Computing | Vol I: Foundations</title>
+    <link rel="shortcut icon" href="../img/n.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/timeline.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css"
+          integrity="sha384-My1fE_C1/CXcbM8M1TDMmnSljIfc5S+HSRoYAbsSGOYFGvcJ/cKqcZBYaOQHAoNt"
+          crossorigin="anonymous">
+    
+    </head>
+
+
+
+
+<body style="background-color: #F1F1F3;">
+
+<nav class="navbar navbar-white navbar-fixed-top" style="background-color: SlateBlue;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+
+      <div id="logo" style="display: flex; align-items: center;">
+                    <a href="../index.html"><img src="../img/logo.png" alt="Big Book of Computing Logo" title="The Big Book of Computing" width="50" height="50" /></a>
+                    <span style="margin-left: 10px; font-weight: bold; font-size: 1.2em; color: #07f1d6;">The Big Book of Computing</span>
+      </div>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">HOME</a></li>
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">VOLUMES</a></li>
+        <li><a href="https::/bigbookofcomputing.github.io" style="color:white;">PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br><br><br><br>
+        <div class="container">
+            <center>
+            <h2>The Big Book of Computing</h2>
+            <h3> Volume I: The Foundational Toolkit </h3>
+            </center>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline8">
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 1 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">The Digital Lab Notebook</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Set up the computational workbench using <b>Python</b>, <b>Anaconda</b>, and <b>Jupyter</b> notebooks.</li>
+                                        <li>Introduce the "Big Three" libraries: <b>NumPy</b> for arrays, <b>SciPy</b> for algorithms, and <b>Matplotlib</b> for plotting.</li>
+                                        <li>Establish a workflow for reproducible science using <b>Git</b> for version control.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read Chapter </a> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Workbook </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> CodeBook </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter1" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 2 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">The Nature of Computational Numbers</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Explore the <b>IEEE 754 floating-point standard</b> and its limitations.</li>
+                                        <li class="text-left">Define <b>machine precision</b> ($\epsilon_m$) and differentiate <b>round-off</b> vs. <b>truncation error</b>.</li>
+                                        <li class="text-left">Identify and avoid <b>catastrophic cancellation</b>, a primary source of numerical error.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read Chapter </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Workbook </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> CodeBook </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter2" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 3 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Finding Order in Chaos: Root Finding</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Implement algorithms for finding roots of $f(x)=0$.</li>
+                                        <li>Use the <b>Bisection Method</b> for guaranteed (but slow) convergence.</li>
+                                        <li>Implement the fast, derivative-based <b>Newton-Raphson Method</b>.</li>
+                                        <li>Use the <b>Secant Method</b> as a practical compromise that avoids analytical derivatives.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read Chapter </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Workbook </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> CodeBook </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter3" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 4 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Working with Data: Interpolation & Fitting</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Learn to handle discrete data, distinguishing <b>interpolation</b> (for clean data) from <b>fitting</b> (for noisy data).</li>
+                                        <li class="text-left">Show why high-order <b>polynomial interpolation</b> is dangerous due to <b>Runge's phenomenon</b>.</li>
+                                        <li class="text-left">Implement <b>Cubic Splines</b> as the robust standard for interpolation.</li>
+                                        <li class="text-left">Use the <b>Method of Least Squares</b> to fit models to noisy data.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read Chapter </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Workbook </a>  
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> CodeBook </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter4" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 5 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Numerical Differentiation</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Derive formulas for numerical derivatives from the <b>Taylor series</b>.</li>
+                                        <li>Compare the $O(h)$ <b>Forward Difference</b> formula with the superior $O(h^2)$ <b>Central Difference</b> formula.</li>
+                                        <li>Find the optimal step size $h$ by balancing <b>truncation error</b> (which prefers small $h$) and <b>round-off error</b> (which prefers large $h$).</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read Chapter </a> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Workbook </a>
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> CodeBook </a> 
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter5" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 6 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Numerical Integration (Quadrature)</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Build tools to find the 'area under the curve' for discrete data.</li>
+                                        <li class="text-left">Implement the $O(h^2)$ <b>Trapezoidal Rule</b> and the more accurate $O(h^4)$ <b>Simpson's Rule</b>.</li>
+                                        <li class="text-left">Discuss <b>Gaussian Quadrature</b> for optimal sampling and <b>Monte Carlo integration</b> for solving high-dimensional integrals.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter6" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 7 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Initial Value Problems I: The Basics</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Solve Ordinary Differential Equations (ODEs) of the form $dx/dt = f(x,t)$.</li>
+                                        <li>Show why the simple $O(h)$ <b>Euler's Method</b> is unstable for oscillators and leads to energy gain.</li>
+                                        <li>Derive and implement the 'gold standard' $O(h^4)$ <b>4th-Order Runge-Kutta (RK4)</b> algorithm, the workhorse for most ODEs.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter7" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 8 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Initial Value Problems II: The Leapfrog & Verlet</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Address the problem of <b>long-term energy drift</b> in conservative systems (like planets or molecules).</li>
+                                        <li class="text-left">Introduce <b>symplectic integrators</b>, which are time-reversible and designed to conserve energy.</li>
+                                        <li class="text-left">Implement the <b>Leapfrog</b> and <b>Velocity-Verlet</b> algorithms, the foundation for N-body and molecular dynamics simulations.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter8" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 9 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Boundary Value Problems</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Solve ODEs where conditions are known at the *boundaries* ($x=0$ and $x=L$), not the start.</li>
+                                        <li>Implement the <b>Shooting Method</b>, which cleverly combines an IVP solver (Ch 7) with a root finder (Ch 3).</li>
+                                        <li>Implement the more robust <b>Finite Difference (Relaxation) Method</b>, which transforms the calculus problem into a linear algebra problem.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter9" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 10 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Elliptic PDEs (Laplace's Equation)</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Solve 2D <b>Elliptic PDEs</b> for steady-state systems (e.g., electrostatics, steady heat flow).</li>
+                                        <li class="text-left">Derive the <b>5-point stencil</b> for the Laplacian ($\nabla^2\phi = 0$), which states that every point is the average of its neighbors.</li>
+                                        <li class="text-left">Implement iterative <b>relaxation solvers</b>, including <b>Jacobi</b>, <b>Gauss-Seidel</b>, and <b>Successive Over-Relaxation (SOR)</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter10" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 11 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Parabolic PDEs (The Heat/Diffusion Equation)</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Solve <b>Parabolic PDEs</b> by discretizing both space and time to model diffusion.</li>
+                                        <li>Implement the explicit <b>FTCS method</b> and analyze its critical <b>CFL stability condition</b> ($\alpha \le 1/2$).</li>
+                                        <li>Implement the unconditionally stable, implicit <b>Crank-Nicolson method</b>, which requires solving a matrix equation at each time step.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter11" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 12 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Hyperbolic PDEs (The Wave Equation)</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Model propagating phenomena by solving the <b>Hyperbolic PDE</b> for waves ($\partial^2y/\partial t^2 = v^2 \partial^2y/\partial x^2$).</li>
+                                        <li class="text-left">Discretize the 2nd-order time derivative to get an <b>FTCS scheme</b> that is identical in form to the <b>Verlet algorithm</b> (Ch 8).</li>
+                                        <li class="text-left">Derive the famous <b>CFL condition</b> ($v h_t \le h_x$) required for stability, which ensures the wave doesn't "skip" a grid point.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter12" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 13 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Systems of Linear Equations</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Build the "engine" for our implicit solvers: solving $\mathbf{A}\mathbf{x} = \mathbf{b}$.</li>
+                                        <li>Implement <b>Gaussian Elimination</b> and the more efficient <b>LU Decomposition</b>, which allows for rapid solving with different $\mathbf{b}$ vectors.</li>
+                                        <li>Learn why you must <b>never compute the matrix inverse</b> $\mathbf{A}^{-1}$ to solve a linear system.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="httpsGallery/github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter13" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 14 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Eigenvalue Problems</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Solve for the "natural states" of a system using the <b>eigenvalue problem</b> $\mathbf{A}\mathbf{v} = \lambda \mathbf{v}$.</li>
+                                        <li class="text-left">Implement the <b>Power Iteration</b> to find the dominant eigenvalue and discuss the <b>QR Algorithm</b>.</li>
+                                        <li class="text-left">Apply these methods to solve the <b>Schrödinger Equation</b> (from Ch 9) by diagonalizing the Hamiltonian matrix.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter14" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 15 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Fourier Analysis & The FFT</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Translate signals from the time domain to the frequency domain.</li>
+                                        <li>Contrast the $O(N^2)$ <b>Discrete Fourier Transform (DFT)</b> with the revolutionary $O(N \log N)$ <b>Fast Fourier Transform (FFT)</b>.</li>
+                                        <li>Explain the <b>Nyquist-Shannon Sampling Theorem</b> and the critical problem of <b>aliasing</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter15" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 16 </span>
+                            <div class="timeline-content">
+                                <h3 class="title text-left">Data-Driven Analysis: SVD & PCA</h3>
+                                <p class="description text-left">
+                                    <ul>
+                                        <br>
+                                        <li class="text-left">Find dominant patterns in large, high-dimensional datasets.</li>
+                                        <li class="text-left">Use <b>Singular Value Decomposition (SVD)</b> for data compression and noise filtering.</li>
+                                        <li class="text-left">Implement <b>Principal Component Analysis (PCA)</b>, which finds the axes of greatest variance by solving the eigenvalue problem for the <b>covariance matrix</b>.</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="httpsGallery/github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter16" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                            <span class="timeline-icon"></span>
+                            <span class="year"> Chapter 17 </span>
+                            <div class="timeline-content">
+                                <h3 class="title">Randomness in Physics</h3>
+                                <p class="description">
+                                    <ul>
+                                        <br>
+                                        <li>Build our final tool: <b>Pseudo-Random Number Generators (PRNGs)</b>.</li>
+                                        <li>Use the <b>Inverse Transform Method</b> to sample from any physical probability distribution (e.g., exponential).</li>
+                                        <li>Apply these methods to simulate <b>Random Walks</b> (the particle version of diffusion) and implement <b>Monte Carlo Integration</b> (the high-D integral solver).</li>
+                                    </ul>
+                                </p>
+                                <center> 
+                                    <a href="#" target="_blank"> <span class="fa fa-book" style="color:navy"></span> Read More </a>  
+                                    <a href="https://github.com/npshub/BigBookOfComputing/tree/main/Vol1/Chapter17" target="_blank"> <span class="fa fa-github" style="color:green"></span> Project Repo </a> 
+                                </center>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<hr>
+
+<footer style="background-color: SlateBlue;"> 
+<div class="container-fluid" style="color:white !important;">
+    <div class="row text-center" style="padding-top:10px">
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-earphone"></span> Phone</p>
+            <p style="margin-bottom:2px;color:white;"> No Phone </p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-home"></span> Location</p>
+            <p style="margin-bottom:2px;color:white;"> https://bigbookofcomputing.com </p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-send"></span> E-mail</p>
+            <p style="margin-bottom:2px;color:white;">contact@bigbookofcomputing.com</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <p style="color:white;"><span class="glyphicon glyphicon-leaf"></span> GitHub</p>
+            <p style="margin-bottom:2px;color:white;">https://www.bigbookofcomputing.github.io </p>
+        </div>
+    </div>
+</div>
+</footer> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJdFfcxGetHjPoHqG8dDbcM9hKjE2L/kKYhGqNqMBLCROsDheHjYvkK/S/wM" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-4BiPWGqTwGfS2wI8PZaNWwA4eYFPEA1seNBqCfdTYhLXDvgcCnPAB6B2wAEXxGSm" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false}
+            ],
+            throwOnError : false
+        });
+    });
+</script>
+
+</body>
+</html>
